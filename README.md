@@ -4,7 +4,6 @@ This code is meant to allow the usage of a Twitter full archive
 premium subscription using [v1.1 API](https://developer.twitter.com/en/docs/twitter-api/premium/search-api/quick-start/premium-full-archive).
 
 ## Requirements
-___
 
 ### Environment variables
 
