@@ -46,8 +46,7 @@ def auth():
     return token
 
 def create_profile_query(profile):
-    return '({})'.format(' OR '.join(profile)) if len(profile) > 1 \
-                else profile[0]
+    return '({})'.format(' OR '.join(profile))
 
 def create_payload(start,end,profile):
     query = create_profile_query(profile)
